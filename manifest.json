@@ -1,0 +1,17 @@
+{
+    "name": "English-Arabic Text Fixer",
+    "description": "In most websites, when english and arabic text is mixed in the same sentence it becomes messy. This extension handles this for you.!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "contextMenus",
+        "tabs",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "textFixer.js"
+    },
+    "host_permissions": [
+        "*://*/*"
+    ]
+}
