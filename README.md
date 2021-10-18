@@ -11,8 +11,9 @@ for Arabic speaking users.
 ### Installing
 
 * git clone https://github.com/humonidtyphoon/ArabictextFixer-extension
-* cd public
-* edit the index.html file
+* Head to [chrome extensions](chrome://extensions/)
+* Press load unpacked
+* Browse to the clone location and select the folder.
 
 ## Authors
 
