@@ -109,7 +109,6 @@ function copyText(str) {
     el.style.left = '-9999px';
     document.body.appendChild(el);
     el.select();
-    el.setSelectionRange(0, 99999); /* For mobile devices */
     /* Copy the text inside the text field */
     navigator.clipboard.writeText(el.value);
     document.body.removeChild(el);
