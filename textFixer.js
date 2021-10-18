@@ -61,7 +61,7 @@ function fixArabicText(text) {
 
 var contextMenuItem = {
     "id": "FixArabicText",
-    "title": "Press me",
+    "title": "Fix text",
     "contexts": ["selection"]
 }
 
